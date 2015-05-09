@@ -90,6 +90,7 @@ NeoBundle 'josemarluedke/vim-rspec'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'tpope/vim-vividchalk'
 NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+NeoBundle 'tomasr/molokai'
 
 " syntax support
 NeoBundle 'vim-ruby/vim-ruby'

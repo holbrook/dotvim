@@ -1,3 +1,5 @@
+let g:molokai_original = 1
+
 " this file is loaded BEFORE plugins
 if filereadable(expand("~/.local-before.vim"))
   echo "~/.local-before.vim is deprecated, please move it to ~/.vimrc.before"
