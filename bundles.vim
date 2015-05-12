@@ -68,45 +68,44 @@ NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'airblade/vim-gitgutter'
 
 " Ruby/Rails
-
 " rails support
-NeoBundle 'tpope/vim-rails'
+" NeoBundle 'tpope/vim-rails'
 " bundler integration (e.g. :Bopen)
-NeoBundle 'tpope/vim-bundler'
+" NeoBundle 'tpope/vim-bundler'
 " rake integration
-NeoBundle 'tpope/vim-rake'
+" NeoBundle 'tpope/vim-rake'
 " A custom text object for selecting ruby blocks (ar/ir)
-NeoBundle 'nelstrom/vim-textobj-rubyblock'
+" NeoBundle 'nelstrom/vim-textobj-rubyblock'
 " ruby refactoring
-NeoBundle 'ecomba/vim-ruby-refactoring'
+" NeoBundle 'ecomba/vim-ruby-refactoring'
 " apidock.com docs integration
-NeoBundle 'apidock.vim'
+" NeoBundle 'apidock.vim'
 " toggle ruby blocks style
-NeoBundle 'vim-scripts/blockle.vim'
+" NeoBundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
-NeoBundle 'josemarluedke/vim-rspec'
+" NeoBundle 'josemarluedke/vim-rspec'
 
 " color themes
-NeoBundle 'altercation/vim-colors-solarized'
-NeoBundle 'tpope/vim-vividchalk'
-NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+" NeoBundle 'altercation/vim-colors-solarized'
+" NeoBundle 'tpope/vim-vividchalk'
+" NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 NeoBundle 'tomasr/molokai'
 
 " syntax support
-NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'tsaleh/vim-tmux'
+" NeoBundle 'vim-ruby/vim-ruby'
+" NeoBundle 'tsaleh/vim-tmux'
 NeoBundle 'Puppet-Syntax-Highlighting'
 NeoBundle 'JSON.vim'
-NeoBundle 'tpope/vim-cucumber'
-NeoBundle 'tpope/vim-haml'
+" NeoBundle 'tpope/vim-cucumber'
+" NeoBundle 'tpope/vim-haml'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'vitaly/vim-syntastic-coffee'
 NeoBundle 'vim-scripts/jade.vim'
 NeoBundle 'wavded/vim-stylus'
 NeoBundle 'VimClojure'
-NeoBundle 'slim-template/vim-slim'
-NeoBundle 'elixir-lang/vim-elixir'
+" NeoBundle 'slim-template/vim-slim'
+" NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'ekalinin/Dockerfile.vim'
 NeoBundle 'groenewege/vim-less'
@@ -126,14 +125,14 @@ NeoBundle 'mattn/gist-vim'
 " web APIs support
 NeoBundle 'mattn/webapi-vim'
 
-"NeoBundle 'ShowMarks'
-"NeoBundle 'tpope/vim-unimpaired'
-"NeoBundle 'reinh/vim-makegreen'
+" "NeoBundle 'ShowMarks'
+" "NeoBundle 'tpope/vim-unimpaired'
+" "NeoBundle 'reinh/vim-makegreen'
 
-NeoBundle 'Shougo/vimproc'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/unite-outline'
-NeoBundle 'ujihisa/unite-colorscheme'
+" NeoBundle 'Shougo/vimproc'
+" NeoBundle 'Shougo/unite.vim'
+" NeoBundle 'Shougo/unite-outline'
+" NeoBundle 'ujihisa/unite-colorscheme'
 
 call neobundle#end()
 
