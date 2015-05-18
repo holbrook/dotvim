@@ -4,6 +4,8 @@
 NeoBundleCheck
 NeoBundleDocs
 
+colorscheme molokai
+
 source ~/.vim/bindings.vim
 source ~/.vim/plugins-override.vim
 
