@@ -20,8 +20,10 @@ NeoBundle 'jistr/vim-nerdtree-tabs'
 " NeoBundle 'kien/ctrlp.vim'
 " popup completion menu
 " NeoBundle 'AutoComplPop'
+
 " tags list navigation
-" NeoBundle 'taglist.vim'
+NeoBundle 'taglist.vim'
+
 " yank history
 " NeoBundle 'YankRing.vim'
 " git integration

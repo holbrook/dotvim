@@ -7,7 +7,12 @@ filetype plugin indent on
 set noeol
 set binary
 
-
+" tag list window
+" let Tlist_Show_One_File = 1            "不同时显示多个文件的tag，只显示当前文件的。 
+let Tlist_Exit_OnlyWindow = 1          "如果 taglist 窗口是最后一个窗口，则退出 vim。 
+let Tlist_Use_Right_Window = 1         "在右侧窗口中显示 taglist 窗口。
+let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
+" 当编辑程序代码文件时，可以在 vi 中输入 :Tlist 来启动 taglist 窗口。
 
 colorscheme molokai
 
