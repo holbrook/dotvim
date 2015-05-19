@@ -115,8 +115,8 @@ NeoBundle 'tomasr/molokai'
 " markdown
 NeoBundle 'tpope/vim-markdown'              " syntax support
 NeoBundle 'nelstrom/vim-markdown-folding'   " markdown folding
-NeoBundle 'suan/vim-instant-markdown'       " realtime preview, need `npm -g install instant-markdown-d`
-
+" Sth. wrong!!! NeoBundle 'suan/vim-instant-markdown'       " realtime preview, need `npm -g install instant-markdown-d`
+NeoBundle 'holbrook/vim-screencap'          " screen capture tool
 " plantuml
 NeoBundle 'aklt/plantuml-syntax'
 

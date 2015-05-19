@@ -10,6 +10,7 @@ it will surely serve you well with any language of your choice.
 The config is using [NeoBundle](https://github.com/Shougo/neobundle.vim) for easy
 upgrading. The list of installed bundles is in the `bundles.vim`
 
+![](assets/README_1432075310.png)
 > IMPORTANT:
 > - Vundle was replaced with
 >   [Neobundle](https://github.com/Shougo/neobundle.vim). See [Neobundle
