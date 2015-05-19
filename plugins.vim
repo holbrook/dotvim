@@ -1,3 +1,7 @@
+" tpope/vim-markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+
 " showmarks
 let g:showmarks_enable = 0 " disabled by default by populardemand ;)
 hi! link ShowMarksHLl LineNr

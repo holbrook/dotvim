@@ -7,6 +7,12 @@ filetype plugin indent on
 set noeol
 set binary
 
+
+
+colorscheme molokai
+
+set shell=bash\ -i
+
 " utf-8/unicode support
 " requires Vim to be compiled with Multibyte support, you can check that by
 " running `vim --version` and checking for +multi_byte.

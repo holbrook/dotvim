@@ -98,7 +98,6 @@ NeoBundle 'tomasr/molokai'
 " NeoBundle 'JSON.vim'
 " NeoBundle 'tpope/vim-cucumber'
 " NeoBundle 'tpope/vim-haml'
-NeoBundle 'tpope/vim-markdown'
 " NeoBundle 'kchmck/vim-coffee-script'
 " NeoBundle 'vitaly/vim-syntastic-coffee'
 " NeoBundle 'vim-scripts/jade.vim'
@@ -114,8 +113,9 @@ NeoBundle 'tpope/vim-markdown'
 " language support
 "--------------------------------------------------
 " markdown
-NeoBundle 'nelstrom/vim-markdown-folding'
-NeoBundle 'suan/vim-instant-markdown'
+NeoBundle 'tpope/vim-markdown'              " syntax support
+NeoBundle 'nelstrom/vim-markdown-folding'   " markdown folding
+NeoBundle 'suan/vim-instant-markdown'       " realtime preview, need `npm -g install instant-markdown-d`
 
 " plantuml
 NeoBundle 'aklt/plantuml-syntax'
