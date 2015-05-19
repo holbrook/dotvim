@@ -5,7 +5,7 @@
 " set guifont=仿宋:h18
 
 
-set guifont=Anonymous\ Pro:h16
+set guifont=Anonymous\ Pro:h14
 set linespace=2   " set the line height
 
 " Options for Graphic version of VIM

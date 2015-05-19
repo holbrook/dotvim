@@ -110,8 +110,20 @@ NeoBundle 'tpope/vim-markdown'
 " NeoBundle 'ekalinin/Dockerfile.vim'
 " NeoBundle 'groenewege/vim-less'
 
+"--------------------------------------------------
 " language support
+"--------------------------------------------------
+" markdown
 NeoBundle 'nelstrom/vim-markdown-folding'
+NeoBundle 'suan/vim-instant-markdown'
+
+" plantuml
+NeoBundle 'aklt/plantuml-syntax'
+
+
+
+
+
 " Support and minor
 
 " Support for user-defined text objects

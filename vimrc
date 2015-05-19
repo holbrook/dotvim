@@ -1,9 +1,13 @@
 " content of this file is loaded BEFORE all the plugins
 
+
+
+
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936,big5,euc-jp,euc-kr,latin1
 set encoding=utf-8
 
-
+" close input method in Normal Mode
+set noimd
 
 source ~/.vim/bundles.vim  " vundle plugins list
 source ~/.vim/global.vim   " general global configuration
