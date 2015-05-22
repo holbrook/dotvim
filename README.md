@@ -1,4 +1,4 @@
-## Dotvim
+## dotvim:我的vim配置
 
 ### An attempt at The Ultimate Vim Configuration™ ;)
 

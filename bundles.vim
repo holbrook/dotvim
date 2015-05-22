@@ -25,31 +25,31 @@ NeoBundle 'AutoComplPop'
 NeoBundle 'taglist.vim'
 
 " yank history
-NeoBundle 'YankRing.vim'
+" NeoBundle 'YankRing.vim'
 " git integration
-NeoBundle 'tpope/vim-fugitive'
+" NeoBundle 'tpope/vim-fugitive'
 " syntax checking on save
-NeoBundle 'scrooloose/syntastic'
+" NeoBundle 'scrooloose/syntastic'
 " TextMate-style snippets
-NeoBundle 'msanders/snipmate.vim'
+" NeoBundle 'msanders/snipmate.vim'
 " manipulation of surraunding parens, quotes, etc.
-NeoBundle 'tpope/vim-surround'
+" NeoBundle 'tpope/vim-surround'
 " vertical alignment tool
-NeoBundle 'tsaleh/vim-align'
+" NeoBundle 'tsaleh/vim-align'
 " 'ag' searching integration
-NeoBundle 'rking/ag.vim'
+" NeoBundle 'rking/ag.vim'
 " text object based on indent level (ai, ii)
-NeoBundle 'austintaylor/vim-indentobject'
+" NeoBundle 'austintaylor/vim-indentobject'
 " global search & replace
-NeoBundle 'greplace.vim'
+" NeoBundle 'greplace.vim'
 " better looking statusline
-NeoBundle 'bling/vim-airline'
+" NeoBundle 'bling/vim-airline'
 " plugin for resolving three-way merge conflicts
-NeoBundle 'sjl/splice.vim'
+" NeoBundle 'sjl/splice.vim'
 " plugin for visually displaying indent levels
-NeoBundle 'Indent-Guides'
+" NeoBundle 'Indent-Guides'
 " end certain structures automatically, e.g. begin/end etc.
-NeoBundle 'tpope/vim-endwise'
+" NeoBundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
 NeoBundle 'Raimondi/delimitMate'
 " calendar, duh!
@@ -59,7 +59,7 @@ NeoBundle 'chrisbra/NrrwRgn'
 " url based hyperlinks for text files
 NeoBundle 'utl.vim'
 " A clone of Emacs' Org-mode for Vim
-NeoBundle 'hsitz/VimOrganizer'
+" NeoBundle 'hsitz/VimOrganizer'   Sth. wrong
 " visual undo tree
 NeoBundle 'sjl/gundo.vim'
 " switch segments of text with predefined replacements. e.g. '' -> "
@@ -119,6 +119,8 @@ NeoBundle 'tpope/vim-markdown'              " syntax support
 NeoBundle 'nelstrom/vim-markdown-folding'   " markdown folding
 " Sth. wrong!!! NeoBundle 'suan/vim-instant-markdown'       " realtime preview, need `npm -g install instant-markdown-d`
 NeoBundle 'holbrook/vim-screencap'          " screen capture tool
+" graphviz
+NeoBundle 'wannesm/wmgraphviz.vim'
 " plantuml
 NeoBundle 'aklt/plantuml-syntax'
 
@@ -150,6 +152,12 @@ NeoBundle 'aklt/plantuml-syntax'
 " NeoBundle 'Shougo/unite-outline'
 " NeoBundle 'ujihisa/unite-colorscheme'
 
+
+" others
+" --------------------------------
+
+" evernote via geeknote
+NeoBundle 'neilagabriel/vim-geeknote'
 call neobundle#end()
 
 filetype plugin indent on
