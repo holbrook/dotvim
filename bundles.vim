@@ -8,66 +8,66 @@ endif
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 " plugin management
-" NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundleFetch 'Shougo/neobundle.vim'
 
 " file tree
 NeoBundle 'scrooloose/nerdtree'
 " file tree and tabs interaction
 NeoBundle 'jistr/vim-nerdtree-tabs'
 " commenting
-" NeoBundle 'scrooloose/nerdcommenter'
+NeoBundle 'scrooloose/nerdcommenter'
 " fuzzy file open
-" NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'kien/ctrlp.vim'
 " popup completion menu
-" NeoBundle 'AutoComplPop'
+NeoBundle 'AutoComplPop'
 
 " tags list navigation
 NeoBundle 'taglist.vim'
 
 " yank history
-" NeoBundle 'YankRing.vim'
+NeoBundle 'YankRing.vim'
 " git integration
-" NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-fugitive'
 " syntax checking on save
-" NeoBundle 'scrooloose/syntastic'
+NeoBundle 'scrooloose/syntastic'
 " TextMate-style snippets
-" NeoBundle 'msanders/snipmate.vim'
+NeoBundle 'msanders/snipmate.vim'
 " manipulation of surraunding parens, quotes, etc.
-" NeoBundle 'tpope/vim-surround'
+NeoBundle 'tpope/vim-surround'
 " vertical alignment tool
-" NeoBundle 'tsaleh/vim-align'
+NeoBundle 'tsaleh/vim-align'
 " 'ag' searching integration
-" NeoBundle 'rking/ag.vim'
+NeoBundle 'rking/ag.vim'
 " text object based on indent level (ai, ii)
-" NeoBundle 'austintaylor/vim-indentobject'
+NeoBundle 'austintaylor/vim-indentobject'
 " global search & replace
-" NeoBundle 'greplace.vim'
+NeoBundle 'greplace.vim'
 " better looking statusline
-" NeoBundle 'bling/vim-airline'
+NeoBundle 'bling/vim-airline'
 " plugin for resolving three-way merge conflicts
-" NeoBundle 'sjl/splice.vim'
+NeoBundle 'sjl/splice.vim'
 " plugin for visually displaying indent levels
-" NeoBundle 'Indent-Guides'
+NeoBundle 'Indent-Guides'
 " end certain structures automatically, e.g. begin/end etc.
-" NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
-" NeoBundle 'Raimondi/delimitMate'
+NeoBundle 'Raimondi/delimitMate'
 " calendar, duh!
-" NeoBundle 'calendar.vim--Matsumoto'
+NeoBundle 'calendar.vim--Matsumoto'
 " A Narrow Region Plugin (similar to Emacs)
-" NeoBundle 'chrisbra/NrrwRgn'
+NeoBundle 'chrisbra/NrrwRgn'
 " url based hyperlinks for text files
-" NeoBundle 'utl.vim'
+NeoBundle 'utl.vim'
 " A clone of Emacs' Org-mode for Vim
-" NeoBundle 'hsitz/VimOrganizer'
+NeoBundle 'hsitz/VimOrganizer'
 " visual undo tree
-" NeoBundle 'sjl/gundo.vim'
+NeoBundle 'sjl/gundo.vim'
 " switch segments of text with predefined replacements. e.g. '' -> "
-" NeoBundle 'AndrewRadev/switch.vim'
+NeoBundle 'AndrewRadev/switch.vim'
 " async external commands with output in vim
-" NeoBundle 'tpope/vim-dispatch'
+NeoBundle 'tpope/vim-dispatch'
 " git diff in the gutter (sign column) and stages/reverts hunks
-" NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'airblade/vim-gitgutter'
 
 " Ruby/Rails
 " rails support
@@ -97,19 +97,19 @@ NeoBundle 'tomasr/molokai'
 " NeoBundle 'vim-ruby/vim-ruby'
 " NeoBundle 'tsaleh/vim-tmux'
 " NeoBundle 'Puppet-Syntax-Highlighting'
-" NeoBundle 'JSON.vim'
-" NeoBundle 'tpope/vim-cucumber'
-" NeoBundle 'tpope/vim-haml'
-" NeoBundle 'kchmck/vim-coffee-script'
-" NeoBundle 'vitaly/vim-syntastic-coffee'
-" NeoBundle 'vim-scripts/jade.vim'
-" NeoBundle 'wavded/vim-stylus'
-" NeoBundle 'VimClojure'
-" NeoBundle 'slim-template/vim-slim'
-" NeoBundle 'elixir-lang/vim-elixir'
-" NeoBundle 'Blackrush/vim-gocode'
-" NeoBundle 'ekalinin/Dockerfile.vim'
-" NeoBundle 'groenewege/vim-less'
+NeoBundle 'JSON.vim'
+NeoBundle 'tpope/vim-cucumber'
+NeoBundle 'tpope/vim-haml'
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'vitaly/vim-syntastic-coffee'
+NeoBundle 'vim-scripts/jade.vim'
+NeoBundle 'wavded/vim-stylus'
+NeoBundle 'VimClojure'
+NeoBundle 'slim-template/vim-slim'
+NeoBundle 'elixir-lang/vim-elixir'
+NeoBundle 'Blackrush/vim-gocode'
+NeoBundle 'ekalinin/Dockerfile.vim'
+NeoBundle 'groenewege/vim-less'
 
 "--------------------------------------------------
 " language support
