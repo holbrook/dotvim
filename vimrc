@@ -9,6 +9,9 @@ set encoding=utf-8
 " close input method in Normal Mode
 set noimd
 
+
+set relativenumber
+set number
 source ~/.vim/bundles.vim  " vundle plugins list
 source ~/.vim/global.vim   " general global configuration
 source ~/.vim/plugins.vim  " configuration for plugins that needs to be set BEFORE plugins are loaded
