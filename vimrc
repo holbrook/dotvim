@@ -31,3 +31,9 @@ endif
 " which should place it AFTER all the other plugins in the loading order
 " bindings.vim and local.vim are loaded from after.vim
 
+
+" NewFile templates
+autocmd BufNewFile *.py 0r ~/.vim/templates/python.tlp
+autocmd BufNewFile *.dot 0r ~/.vim/templates/graphviz.tlp
+autocmd BufNewFile *.uml 0r ~/.vim/templates/plantuml.tlp
+autocmd BufNewFile *.md 0r ~/.vim/templates/markdown.tlp
