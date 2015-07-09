@@ -41,6 +41,6 @@ autocmd BufNewFile *.uml 0r ~/.vim/templates/plantuml.tlp
 autocmd BufNewFile *.md 0r ~/.vim/templates/markdown.tlp
 
 
-"gen graph 
-" need wannesm/wmgraphviz.vim
-map <F5> <ESC>:GraphvizShow<CR>
+autocmd BufRead *.py nmap <F5>:w<CR>:!python %<CR><CR>
+"gen graph. need wannesm/wmgraphviz.vim
+autocmd BufRead *.dot map z:GraphvizView<CR>
