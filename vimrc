@@ -33,7 +33,14 @@ endif
 
 
 " NewFile templates
+" add BufRead will gen some bug when open file
+" autocmd BufRead,BufNewFile *.md 0r ~/.vim/templates/markdown.tlp
 autocmd BufNewFile *.py 0r ~/.vim/templates/python.tlp
 autocmd BufNewFile *.dot 0r ~/.vim/templates/graphviz.tlp
 autocmd BufNewFile *.uml 0r ~/.vim/templates/plantuml.tlp
 autocmd BufNewFile *.md 0r ~/.vim/templates/markdown.tlp
+
+
+"gen graph 
+" need wannesm/wmgraphviz.vim
+map <F5> <ESC>:GraphvizShow<CR>
