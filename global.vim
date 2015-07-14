@@ -15,6 +15,7 @@ let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 " 当编辑程序代码文件时，可以在 vi 中输入 :Tlist 来启动 taglist 窗口。
 
 colorscheme molokai
+color molokai
 
 set shell=bash\ -i
 
