@@ -14,7 +14,7 @@ let Tlist_Use_Right_Window = 1         "在右侧窗口中显示 taglist 窗口�
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 " 当编辑程序代码文件时，可以在 vi 中输入 :Tlist 来启动 taglist 窗口。
 
-colorscheme molokai
+set t_Co=256        "set terminal colors 256 
 color molokai
 
 set shell=bash\ -i
