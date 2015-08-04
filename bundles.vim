@@ -123,6 +123,8 @@ NeoBundle 'holbrook/vim-screencap'          " screen capture tool
 NeoBundle 'wannesm/wmgraphviz.vim'
 " plantuml
 NeoBundle 'aklt/plantuml-syntax'
+" python
+NeoBundle 'vim-scripts/python_fold'
 
 
 
