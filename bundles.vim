@@ -117,7 +117,8 @@ NeoBundle 'groenewege/vim-less'
 " markdown
 NeoBundle 'tpope/vim-markdown'              " syntax support
 NeoBundle 'nelstrom/vim-markdown-folding'   " markdown folding
-" Sth. wrong!!! NeoBundle 'suan/vim-instant-markdown'       " realtime preview, need `npm -g install instant-markdown-d`
+" realtime preview, need `npm -g install instant-markdown-d`
+NeoBundle 'suan/vim-instant-markdown'
 NeoBundle 'holbrook/vim-screencap'          " screen capture tool
 " graphviz
 NeoBundle 'wannesm/wmgraphviz.vim'
@@ -159,7 +160,6 @@ NeoBundle 'vim-scripts/python_fold'
 " --------------------------------
 
 " evernote via geeknote
-NeoBundle 'neilagabriel/vim-geeknote'
 call neobundle#end()
 
 filetype plugin indent on

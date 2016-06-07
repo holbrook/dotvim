@@ -10,6 +10,13 @@ set encoding=utf-8
 set noimd
 
 
+" for markdown-folding
+set nocompatible
+if has("autocmd")
+    filetype plugin indent on
+endif
+
+
 set relativenumber
 set number
 source ~/.vim/bundles.vim  " vundle plugins list
